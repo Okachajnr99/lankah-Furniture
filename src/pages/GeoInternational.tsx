@@ -12,42 +12,42 @@ const GeoInternational = () => {
       id: 1,
       name: "Globe & Surveying (Square)",
       image: geoSquareCompass,
-      description: "Globe with surveying equipment and city skyline in maroon and gold",
+      description: "Globe with surveying equipment and city skyline in maroon and green",
       layout: "square"
     },
     {
       id: 2,
       name: "World Construction (Square)",
       image: geoSquareBlueprint,
-      description: "Globe with continents featuring construction crane and buildings in maroon",
+      description: "Globe with continents featuring construction crane and buildings in maroon and green",
       layout: "square"
     },
     {
       id: 3,
       name: "GI Globe Monogram (Square)",
       image: geoSquareMonogram,
-      description: "Globe with GI monogram and surveying tools in maroon and gold",
+      description: "Globe with GI monogram and surveying tools in maroon and green",
       layout: "square"
     },
     {
       id: 4,
       name: "Globe & Crane Technical (Horizontal)",
       image: geoHorizontalTechnical,
-      description: "Globe with construction crane in maroon and gold gradient",
+      description: "Globe with construction crane in maroon and green gradient",
       layout: "horizontal"
     },
     {
       id: 5,
       name: "Urban Globe Professional (Horizontal)",
       image: geoHorizontalCorporate,
-      description: "Globe with city skyline and survey grid in maroon and gold",
+      description: "Globe with city skyline and survey grid in maroon and green",
       layout: "horizontal"
     },
     {
       id: 6,
       name: "Hexagon Globe (Horizontal)",
       image: geoHorizontalGeometric,
-      description: "Hexagonal globe showing world continents in maroon and gold",
+      description: "Hexagonal globe showing world continents in maroon and green",
       layout: "horizontal"
     }
   ];
@@ -72,7 +72,7 @@ const GeoInternational = () => {
           </h2>
           <p className="text-muted-foreground">
             Six modern professional logo concepts featuring globe elements with surveying, design, and construction symbols 
-            in maroon and gold color schemes. Available in both square and horizontal layouts.
+            in maroon and green color schemes. Available in both square and horizontal layouts.
           </p>
         </div>
 
