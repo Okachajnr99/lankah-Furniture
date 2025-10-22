@@ -1,55 +1,53 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
-import logoSquareMinimalist from "@/assets/logo-square-minimalist.png";
-import logoSquareElegant from "@/assets/logo-square-elegant.png";
-import logoSquareMonogram from "@/assets/logo-square-monogram.png";
-import logoHorizontalModern from "@/assets/logo-horizontal-modern.png";
-import logoHorizontalSophisticated from "@/assets/logo-horizontal-sophisticated.png";
-import logoHorizontalArchitectural from "@/assets/logo-horizontal-architectural.png";
+import geoSquareCompass from "@/assets/geo-square-compass.png";
+import geoSquareBlueprint from "@/assets/geo-square-blueprint.png";
+import geoSquareMonogram from "@/assets/geo-square-monogram.png";
+import geoHorizontalTechnical from "@/assets/geo-horizontal-technical.png";
+import geoHorizontalCorporate from "@/assets/geo-horizontal-corporate.png";
+import geoHorizontalGeometric from "@/assets/geo-horizontal-geometric.png";
 
-const Index = () => {
+const GeoInternational = () => {
   const logos = [
     {
       id: 1,
-      name: "Minimalist Modern (Square)",
-      image: logoSquareMinimalist,
-      description: "Clean geometric armchair icon with modern sans-serif typography",
+      name: "Compass & Construction (Square)",
+      image: geoSquareCompass,
+      description: "Geometric compass icon with construction elements in blue and orange",
       layout: "square"
     },
     {
       id: 2,
-      name: "Elegant Luxury (Square)",
-      image: logoSquareElegant,
-      description: "Ornate sofa icon with gold accents and sophisticated details",
+      name: "Urban Surveyor (Square)",
+      image: geoSquareBlueprint,
+      description: "Building silhouettes with surveyor figure in navy, gray, and orange",
       layout: "square"
     },
     {
       id: 3,
-      name: "Monogram Classic (Square)",
-      image: logoSquareMonogram,
-      description: "Intertwined L+H letters forming elegant furniture motif",
+      name: "GI Monogram Technical (Square)",
+      image: geoSquareMonogram,
+      description: "Stylized monogram with architectural precision in blue and gray",
       layout: "square"
     },
     {
       id: 4,
-      name: "Contemporary Modern (Horizontal)",
-      image: logoHorizontalModern,
-      description: "Dining set icon with refined contemporary typography",
+      name: "Compass Rose Professional (Horizontal)",
+      image: geoHorizontalTechnical,
+      description: "Compass rose with construction crane in technical layout",
       layout: "horizontal"
     },
     {
       id: 5,
-      name: "Sophisticated Home (Horizontal)",
-      image: logoHorizontalSophisticated,
-      description: "House with furniture elements in gold on black background",
+      name: "Architectural Excellence (Horizontal)",
+      image: geoHorizontalCorporate,
+      description: "Building structures with surveying equipment and laurel emblem",
       layout: "horizontal"
     },
     {
       id: 6,
-      name: "Architectural Premium (Horizontal)",
-      image: logoHorizontalArchitectural,
-      description: "Geometric bedroom scene with architectural clean lines",
+      name: "Hexagon Blueprint (Horizontal)",
+      image: geoHorizontalGeometric,
+      description: "Geometric hexagon with survey tools and construction elements",
       layout: "horizontal"
     }
   ];
@@ -58,32 +56,23 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-card/50 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-8">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-4xl font-bold text-foreground mb-2">
-                LANKAH HOME FURNITURE
-              </h1>
-              <p className="text-lg text-muted-foreground">
-                Logo Design Concepts
-              </p>
-            </div>
-            <Link to="/geo-international">
-              <Button variant="outline" size="lg">
-                View GEO INTERNATIONAL Logos
-              </Button>
-            </Link>
-          </div>
+          <h1 className="text-4xl font-bold text-foreground mb-2">
+            GEO INTERNATIONAL
+          </h1>
+          <p className="text-lg text-muted-foreground">
+            Survey • Design • Construction Logo Concepts
+          </p>
         </div>
       </header>
 
       <main className="container mx-auto px-6 py-12">
         <div className="mb-12 text-center max-w-2xl mx-auto">
           <h2 className="text-2xl font-semibold text-foreground mb-4">
-            Explore Your Logo Options
+            Professional Logo Designs
           </h2>
           <p className="text-muted-foreground">
-            We've created six modern luxury logo concepts in black, gold, brown, and white. 
-            Each design features icon + text with "Where Elegance Meets Home" tagline in both square and horizontal layouts.
+            Six modern professional logo concepts featuring surveying, design, and construction elements 
+            in blue, orange, and gray color schemes. Available in both square and horizontal layouts.
           </p>
         </div>
 
@@ -159,11 +148,11 @@ const Index = () => {
           <Card className="max-w-2xl mx-auto bg-accent/5 border-accent/20">
             <CardContent className="p-8">
               <h3 className="text-xl font-semibold text-foreground mb-3">
-                Need Modifications?
+                Ready to Refine?
               </h3>
               <p className="text-muted-foreground">
-                Let us know which design resonates with you, and we can refine colors, 
-                typography, or elements to perfectly match your vision.
+                Choose your favorite design and we can adjust colors, typography, 
+                or icon elements to perfectly represent GEO INTERNATIONAL's brand identity.
               </p>
             </CardContent>
           </Card>
@@ -173,4 +162,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default GeoInternational;
