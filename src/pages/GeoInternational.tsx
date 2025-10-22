@@ -10,44 +10,44 @@ const GeoInternational = () => {
   const logos = [
     {
       id: 1,
-      name: "Compass & Construction (Square)",
+      name: "Globe & Surveying (Square)",
       image: geoSquareCompass,
-      description: "Geometric compass icon with construction elements in blue and orange",
+      description: "Globe with surveying equipment and city skyline in maroon and gold",
       layout: "square"
     },
     {
       id: 2,
-      name: "Urban Surveyor (Square)",
+      name: "World Construction (Square)",
       image: geoSquareBlueprint,
-      description: "Building silhouettes with surveyor figure in navy, gray, and orange",
+      description: "Globe with continents featuring construction crane and buildings in maroon",
       layout: "square"
     },
     {
       id: 3,
-      name: "GI Monogram Technical (Square)",
+      name: "GI Globe Monogram (Square)",
       image: geoSquareMonogram,
-      description: "Stylized monogram with architectural precision in blue and gray",
+      description: "Globe with GI monogram and surveying tools in maroon and gold",
       layout: "square"
     },
     {
       id: 4,
-      name: "Compass Rose Professional (Horizontal)",
+      name: "Globe & Crane Technical (Horizontal)",
       image: geoHorizontalTechnical,
-      description: "Compass rose with construction crane in technical layout",
+      description: "Globe with construction crane in maroon and gold gradient",
       layout: "horizontal"
     },
     {
       id: 5,
-      name: "Architectural Excellence (Horizontal)",
+      name: "Urban Globe Professional (Horizontal)",
       image: geoHorizontalCorporate,
-      description: "Building structures with surveying equipment and laurel emblem",
+      description: "Globe with city skyline and survey grid in maroon and gold",
       layout: "horizontal"
     },
     {
       id: 6,
-      name: "Hexagon Blueprint (Horizontal)",
+      name: "Hexagon Globe (Horizontal)",
       image: geoHorizontalGeometric,
-      description: "Geometric hexagon with survey tools and construction elements",
+      description: "Hexagonal globe showing world continents in maroon and gold",
       layout: "horizontal"
     }
   ];
@@ -71,8 +71,8 @@ const GeoInternational = () => {
             Professional Logo Designs
           </h2>
           <p className="text-muted-foreground">
-            Six modern professional logo concepts featuring surveying, design, and construction elements 
-            in blue, orange, and gray color schemes. Available in both square and horizontal layouts.
+            Six modern professional logo concepts featuring globe elements with surveying, design, and construction symbols 
+            in maroon and gold color schemes. Available in both square and horizontal layouts.
           </p>
         </div>
 
